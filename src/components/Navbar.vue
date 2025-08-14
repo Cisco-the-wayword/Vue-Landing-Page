@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <div class="flex items-center">
-          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/98f971bb-3837-475d-b2e0-8a5ac2a9c146.png" alt="Remis logo with stylized fuel drop icon in blue and orange gradient" class="h-8">
+          <img src="/public/images/logos/remis-logo.png" alt="Remis logo with stylized fuel drop icon in blue and orange gradient" class="h-12">
         </div>
         <div class="hidden md:flex space-x-8">
           <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium">Features</a>
@@ -23,11 +23,9 @@
 </template>
 
 <script setup>
-// Navigation component logic can go here
 </script>
 
 <style scoped>
-/* Component-specific styles if needed */
 </style>
 
 ## 3
