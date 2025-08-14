@@ -1,6 +1,6 @@
 <template>
   <!-- Hero Section -->
-  <section class="hero-gradient min-h-screen flex items-center relative overflow-hidden pb-20">
+  <section class="hero-gradient min-h-screen flex items-center relative overflow-hidden pb-20 hero-bg">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div class="space-y-8">
         <h1 class="text-5xl lg:text-6xl font-bold text-blue-900 leading-tight">
@@ -48,7 +48,7 @@
         </div>
       </div>
       
-      <div class="relative">
+      <div class="relative lg:pl-48">
         <div class="floating-animation">
           <img src="/public/images/hand-holding-card.png" alt="Hand holding a blue Remis fuel card against an orange gradient background, showing modern fuel management technology" class="w-full max-w-lg mx-auto">
         </div>
@@ -57,7 +57,7 @@
   </section>
 
   <!-- Partner Stations - Positioned over hero section -->
-  <section class="relative -mt-32 z-10">
+  <section class="relative -mt-32 z-10" >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="bg-white rounded-2xl shadow-lg p-8">
         <h3 class="text-2xl font-bold text-blue-900 text-center mb-12">Some of our Partners Stations</h3>
@@ -78,5 +78,10 @@
 </script>
 
 <style scoped>
-/* Component-specific styles if needed */
+.hero-bg {
+  background-image: url('/public/images/hero-section-background.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 </style>

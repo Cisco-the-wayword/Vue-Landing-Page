@@ -1,26 +1,18 @@
 <template>
-  <footer class="bg-blue-900 text-white py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <div class="mb-8">
-        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0aa66cc4-91cf-41c0-9a99-fa2790eb5dde.png" alt="Remis footer logo in white with fuel management tagline" class="h-8 mx-auto mb-4">
-        <p class="text-blue-200">Smarter Fuel Management for Modern Businesses</p>
+  <footer class="py-20 bg-white">
+    <div class="w-4/5 mx-auto rounded-3xl overflow-hidden bg-[#018CB7] flex flex-col lg:flex-row items-center justify-between relative">
+      <div class="flex-1 text-center lg:text-left p-8 lg:p-12">
+        <h2 class="text-4xl lg:text-5xl font-bold text-white mb-8 leading-tight">
+          Take control of your Fleet & Fuel with Remis
+        </h2>
       </div>
-      <div class="flex justify-center space-x-8 text-sm">
-        <a href="#" class="hover:text-orange-400 transition-colors">Privacy Policy</a>
-        <a href="#" class="hover:text-orange-400 transition-colors">Terms of Service</a>
-        <a href="#" class="hover:text-orange-400 transition-colors">Support</a>
-        <a href="#" class="hover:text-orange-400 transition-colors">Contact</a>
+      <div class="flex-1 flex justify-center lg:justify-end relative p-8 lg:p-12">
+        <img
+          src="/images/laptop_mockup.png"
+          alt="Modern laptop and mobile devices displaying Remis dashboard interface"
+          class="w-[350px] lg:w-[500px] -mt-16"
+        >
       </div>
     </div>
   </footer>
 </template>
-
-<script setup>
-// Footer component logic
-</script>
-
-<style scoped>
-/* Component-specific styles if needed */
-</style>
-
-#
